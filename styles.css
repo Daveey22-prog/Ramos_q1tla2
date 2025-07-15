@@ -1,0 +1,124 @@
+body {
+    background: #e9d3cd;
+    font-family: 'Georgia', serif;
+    color: #4a3c36;
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    width: 100%;
+    background: #e9d3cd;
+    border-bottom: 1px solid #d1b7ae;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px 10px 40px;
+    box-sizing: border-box;
+}
+
+.site-title {
+    letter-spacing: 0.2em;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.topbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.topbar li {
+    display: inline;
+}
+
+.topbar a {
+    text-decoration: none;
+    color: #4a3c36;
+    font-size: 1em;
+    font-family: 'Georgia', serif;
+    letter-spacing: 0.05em;
+    transition: color 0.2s;
+}
+
+.topbar a:hover {
+    color: #184ab5;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #d1b7ae;
+    margin-bottom: 30px;
+    background: #fff;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 400;
+    margin: 0 0 18px 0;
+    color: #4a3c36;
+}
+
+.description {
+    font-size: 1.1em;
+    line-height: 1.7;
+    color: #4a3c36;
+    margin-bottom: 30px;
+}
+
+footer {
+    width: 100%;
+    background: #e9d3cd;
+    border-top: 1px solid #d1b7ae;
+    padding: 18px 0 10px 0;
+    text-align: center;
+    font-size: 1em;
+    color: #4a3c36;
+}
+
+.footer-text {
+    font-family: 'Georgia', serif;
+    font-size: 1em;
+    color: #4a3c36;
+    letter-spacing: 0.01em;
+}
+
+.contact-link {
+    color: #4a3c36;
+    text-decoration: none;
+    margin: 0 4px;
+    font-weight: 400;
+    transition: color 0.2s;
+}
+
+.contact-link.highlight {
+    color: #4470c1;
+    font-weight: bold;
+}
+
+.contact-link.highlight:hover {
+    color: #0948f5;
+}
+
